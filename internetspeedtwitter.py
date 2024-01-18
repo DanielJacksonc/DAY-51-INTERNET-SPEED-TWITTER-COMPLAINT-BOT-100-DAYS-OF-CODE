@@ -43,7 +43,7 @@ class InternetSpeedTwitterBot:
         self.driver.find_element(By.XPATH,"//input[@name='text']").send_keys(LOG, Keys.ENTER)
 
         time.sleep(3)
-        self.driver.find_element(By.XPATH, "//input[@name='text']").send_keys("Codedchild", Keys.ENTER)
+        self.driver.find_element(By.XPATH, "//input[@name='text']").send_keys(PATH, Keys.ENTER)
         self.driver.implicitly_wait(2)
         self.driver.find_element(By.XPATH, "//input[@name='password']").send_keys(PASS, Keys.ENTER)
 
